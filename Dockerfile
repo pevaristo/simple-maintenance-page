@@ -1,4 +1,4 @@
-FROM python:3.7-alpine
+FROM python:3.12-rc-alpine3.18
 LABEL maintainer=dev@dschuldt.de
 
 ADD app.py /app/
